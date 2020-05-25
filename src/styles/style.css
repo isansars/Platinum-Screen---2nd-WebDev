@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 32px auto;
+}
+
+footer{
+    padding: 30px;
+    color: white;
+    background-image: linear-gradient(to bottom right, #5E2563, #65799B);
+    text-align: center;
+    font-weight: bold;
+    position: relative; 
+    bottom:0;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+movie-list,
+person-list {
+    display: block;
+    margin-top: 32px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+}
+
+#dropdownMenu4{
+    background-color: #5E2563;
+}
+
+.dropdown-content,
+.dropdown-header,
+.dropdown-item{
+    color: #ffffff;
+    background-color:  #7f3c85;
+}
+
+.dropdown-item:hover{
+    color: white;
+    background-color: #5E2563;
+}
+
+.dropdown-item:active{
+    background-color: #65799B;
+}
+
+.dropdown{
+    margin-bottom: 30px;
+}
+

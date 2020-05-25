@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Platinum Screens</title>
+</head>
+<body>
+    <header>
+        <app-bar></app-bar>
+    </header>
+    <main>
+        <div class="dropdown open">
+            <button class="btn btn-secondary dropdown-toggle dropbtn" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Category</button>
+            <div class="dropdown-menu dropdown-content" id="myDropdown">
+                <h6 class="dropdown-header">Search Category</h6>
+                <button id="movie-name" class="dropdown-item" href="#!">Movie</button>
+                <button id="TVShow-name" class="dropdown-item" href="#!">TV Show</button>
+                <button id="person-name" class="dropdown-item" href="#!">Person</button>
+            </div>
+        </div>
+        <search-bar></search-bar>
+        <movie-list></movie-list>
+        <person-list></person-list>
+    </main>
+    <footer>
+        <p>&#169; 2020, Platinum Screens, All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
